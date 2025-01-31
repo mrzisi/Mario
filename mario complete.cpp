@@ -11,7 +11,6 @@
 #include <chrono>
 #include <string.h>
 #include <time.h>
-
 #include <mmsystem.h>
 #pragma comment(lib, "winmm.lib")
 #define _CRT_SECURE_NO_WARNINGS
@@ -514,8 +513,8 @@ void initializeMapArray() {
 		for (int j = 12; j <= 14; j++) {
 			map_LevelFirst[10][j] = emoji;
 		}
-		for (int j = 19; j <= 21; j++) {
-			map_LevelFirst[5][j] = emoji;
+		for (int j = 20; j <= 22; j++) {
+			map_LevelFirst[6][j] = emoji;
 		}
 		for (int j = 23; j <= 25; j++) {
 			map_LevelFirst[6][j] = emoji;
@@ -601,7 +600,7 @@ void initializeMapArray() {
 		map_LevelFirst[4][28] = coinEmoji;
 
 		// Other objects
-		map_LevelFirst[4][20] = parcham;
+		map_LevelFirst[5][21] = parcham;
 		map_LevelFirst[12][26] = okhtapus;
 		map_LevelFirst[12][57] = okhtapus;
 		map_LevelFirst[12][56] = okhtapus;
@@ -1078,12 +1077,12 @@ void handleInput() {
 						coinCount_LevelFirst += 1;
 						map_LevelFirst[4][27] = emptySpace;
 					}
-					if (marioY == 4 && (marioX - 1) == 28)
+					if (marioY == 5 && (marioX + 1) == 29)
 					{
 						coinCount_LevelFirst += 1;
 						map_LevelFirst[4][28] = emptySpace;
 					}
-					if (marioY == 4 && marioX - 1 == 20)
+					if (marioY == 5 && marioX - 1 == 21)
 						UpgradeLevel();
 
 

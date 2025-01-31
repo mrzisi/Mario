@@ -11,7 +11,7 @@
 <h3 align="center">Mario game - BP Project</h3>
 
   <p align="center">
-    project_description
+    A simple mario game for BP project
     <br />
     <a href="https://github.com/mrzisi/Mario"><strong>Explore the docs »</strong></a>
     <br />
@@ -52,7 +52,8 @@
 ## About The Project
 ![Mario game][product-screenshot]
 
-explain the project
+this is a simple mario game containing a menu and 2 maps.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -74,7 +75,6 @@ explain the project
 <!-- GETTING STARTED -->
 ## Getting Started
 
-explain how to setup the project
 
 ### Prerequisites
 
@@ -115,7 +115,10 @@ Before you begin, ensure you have the following installed:
 
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+move left and right with A,D and jump with W.
+if you eat mushrooms, you'll get twice as big and get a free-pass after hitting an enemy.
+you can teleport using green emojis.
+try to reach the flag.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
