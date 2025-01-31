@@ -1,0 +1,3 @@
+﻿  mario complete.cpp
+C:\Users\mrmtf\source\repos\mario complete\mario complete\mario complete.cpp(914,1): warning C4715: 'isWalkable': not all control paths return a value
+  mario complete.vcxproj -> C:\Users\mrmtf\source\repos\mario complete\x64\Debug\mario complete.exe
