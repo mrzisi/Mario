@@ -128,8 +128,5 @@ Project Link: [https://github.com/mrzisi/Mario](https://github.com/mrzisi/Mario)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 [product-screenshot]: images/game.png
 
